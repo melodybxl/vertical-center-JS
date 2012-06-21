@@ -1,0 +1,4 @@
+var hg1 = Math.round( ($(window).height()-$("#lightbox-box").height())/2 );
+		if(hg1<0) { hg1 = 10; }
+		
+		$("#lightbox-box").css("margin-top", hg1);
